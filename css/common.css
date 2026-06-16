@@ -12,3 +12,104 @@ p{
     background-color: rgb(217, 192, 162);
 }
 
+         .heading1{
+            color: crimson;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+        }
+        .heading2{
+            color: green;
+            font-size: 50px;
+        }
+        .heading3{
+            color: yellow;
+            font-size: 40px;
+        }
+
+        #heading1{
+            color:blue;
+            font-size: 70px;
+        }
+        #heading2{
+            color: aqua;
+            font-size: 50px;
+        }
+        #heading4{
+            color: blueviolet;
+            font-size: 45px;
+        }
+        #heading5{
+            color: chocolate;
+            font-size: 70px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #heading6{
+            color:dark palevioletred;
+            font-size: 80px;
+        }
+        .heading_f_size{
+            font-size: 60px;
+        }
+        .h_color1{
+            color: red;
+        }
+        .h_color2{
+            color: green;
+        }
+        .h_color3{
+            color: blue;
+        }
+        .t_transfrom_lowercase{
+            text-transform: lowercase;
+            color: blue;
+        }
+        .t_transfrom_uppercase{
+            text-transform: uppercase;
+            color: darkmagenta;
+        }
+        .t_transfrom_captialize{
+            text-transform: capitalize;
+            color: chartreuse;
+        }
+        .t_aling_center{
+            text-align: center;
+            font-size: 50px;
+            color: red;
+        }
+        .t_aling_right{
+            text-align: right;
+            font-size: 40px;
+            color: cyan;
+        }
+        .t_decoation_overline{
+            text-decoration: overline;
+            color: burlywood;
+        }
+        .t_decoation_linethrough{
+            text-decoration: line-through;
+            color: cornflowerblue;
+        }
+        .t_decoation_underline{
+            text-decoration: underline;
+        }
+        .t_indent{
+            text-indent: 70px;
+            color: aqua;
+        }
+        .t_word_space{
+            word-spacing: 40px;
+            color: darkcyan;
+        }
+        .t_letter_space{
+            letter-spacing: 50px;
+            color: blueviolet;
+        }
+        .line_height{
+            line-height: 700px;
+            color: blue;
+        }
+            .heading_f_size4{
+                color: aquamarine;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 70px;
+            }
