@@ -2,15 +2,7 @@ h4{
     color: rgb(122, 56, 9);
     font-size: 50px;
 }
-p{
-    color: deeppink;
-    font-size: 50px;
-}
-p{
-    color: rgb(158, 16, 129);
-    font-size: 50px;
-    background-color: rgb(217, 192, 162);
-}
+
 
          .heading1{
             color: crimson;
@@ -105,7 +97,7 @@ p{
             color: blueviolet;
         }
         .line_height{
-            line-height: 700px;
+            line-height: 80px;
             color: blue;
         }
             .heading_f_size4{
@@ -113,3 +105,45 @@ p{
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 font-size: 70px;
             }
+        
+      .t_shadow{
+        color: red;
+        font-size: 120px;
+        text-align: center;
+        text-shadow: 6px 7px 15px black;
+      }  
+      
+      .b_shadow{
+        width: 500px;
+        height: 400px;
+        box-shadow: 20px 25px 30px purple;
+    
+      }
+
+      .d_shadow{
+         width: 500px;
+        height: 400px;
+        filter: drop-shadow( 10px 12px 18px rgb(231, 231, 5));
+        color: orange;
+
+      }
+   /*  solid, dashaes dotted double inset outset */
+
+      .br_properties{
+        border:15px solid black ;
+      }
+
+      .br_properties{
+        border:20px dashed black ;
+      }
+     
+      .br_properties2{
+        border-radius: 10%;
+        border-left-color: red ;
+        border: 50px solid black;
+      }
+      .box_model{
+        border: 10px solid red;
+        padding: 30px;
+        margin: 50px;
+      }
