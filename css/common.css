@@ -213,7 +213,7 @@ h4{
         width: 150px;
         height: 200px;
         background-color: orange;
-        border: 2px solid green;
+        border: 15px solid green;
         border-radius: 15px;
         margin: 30px;
         color: black;
@@ -230,3 +230,198 @@ h4{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+.bg_image{
+    background-color: yellow;
+    background-image: url(../images/leaf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: darkgreen;
+}
+
+h1:hover{
+    color: darkblue;
+    background-color: aqua;
+    font-size: 80px;
+    text-shadow: 8px 6px 10px red;
+}
+.h2_hover:hover{
+    color: red;
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+ h4:hover{
+     background-color:black;
+
+ }
+   
+
+h3:active{
+    color: green;
+    font-size: 50px;
+    cursor: pointer;
+}
+input:focus{
+    background-color: black;
+    color: azure;
+    border: 10px solid plum;
+}
+a:visited{
+    color: darkmagenta;
+}
+p::first-letter{
+    color: darkorange;
+    font-size: 50px;
+}
+    p::first-line{
+        color: chartreuse;
+    }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+.b-transform{
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 50px;
+    transition: transform 5s ease-in;
+}
+.box-1:hover{
+    transform: translate(125px,125px);
+}
+.box-2:hover{
+    transform: translateX(125px);
+}
+.box-3:hover{
+    transform: translateY(125px);
+}
+.box-4:hover{
+    transform: rotate(380deg);
+    background-color: aqua;
+}
+.box-5:hover{
+    transform: skewY(40deg);
+}
+.box-6:hover{
+    transform: scale(1.3);
+}
+.box-7:hover{
+    transform: rotate(380deg)
+    scale(1)
+    translateX(200px);
+}
+
+/* Simple_animation */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    border-radius: 20px;
+    animation: movingbox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+@keyframes movingbox{
+    0%{background-color: red;left:0px; top:0px}
+        25%{background-color: green; left:300px; top:0px; }
+            50%{background-color: blue; left:300px; top:300px; }
+                 75%{background-color: yellow; left:0px; top:300px; }
+                     100%{background-color: red; left:0px; top:0px; }
+} */
+.bg_image2{
+    background-color: yellow;
+    background-image: url(../images/flower-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* nth_child */
+ul{
+    width: 200px;
+    padding: 30px;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    border: 5px solid red;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+li:nth-child(even){
+    background-color:darkblue;
+    color: azure;
+}
+li:nth-child(odd){
+    background-color:lightskyblue;
+}
+/* text_animation */
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    perspective: 50px;
+}
+
+.text-container >b{
+    height: 90px;
+    box-shadow: 0px 20px 10px gray;
+    background-color: darkorange;
+    background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    animation: getUpDown 7s infinite;
+}
+
+.text-container >b:nth-child(1){
+    animation-delay: 1s;
+}
+.text-container >b:nth-child(2){
+    animation-delay: 0.14s;
+}
+.text-container >b:nth-child(3){
+    animation-delay: 0.30s;
+}
+.text-container >b:nth-child(4){
+    animation-delay: 0.45;
+}
+.text-container >b:nth-child(5){
+    animation-delay: 0.58s;
+}
+.text-container >b:nth-child(6){
+    animation-delay: 0.75s;
+}
+.text-container >b:nth-child(7){
+    animation-delay: 1s;
+}
+@keyframes getUpDown{
+    from{transform: rotateX(-85deg);}
+    10%,50%{transform: rotateX(0);}
+    60%,to{transform: rotateX(-85deg);}
+}
+
+
+
+
